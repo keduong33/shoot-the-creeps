@@ -9,7 +9,7 @@ public partial class Main : Node
 	public PackedScene MobScene { get; set; }
 
 	[Export]
-	public int ShootingPenalty = 2;
+	public int ShootingPenalty = 1;
 
 	[Export]
 	public PackedScene BulletScene { get; set; }
